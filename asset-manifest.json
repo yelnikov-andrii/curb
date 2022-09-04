@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/curb/static/css/main.70d2530f.css",
+    "main.js": "/curb/static/js/main.acfbb51f.js",
+    "static/media/analyticData.png": "/curb/static/media/analyticData.19190037302b3d6e2d03.png",
+    "static/media/blog-1-img.png": "/curb/static/media/blog-1-img.8060ef54f5a3dd9dd261.png",
+    "static/media/blog-2-img.png": "/curb/static/media/blog-2-img.782315d2889ad1a9a804.png",
+    "static/media/blog-3-img.png": "/curb/static/media/blog-3-img.b7fa6be00a5b188a3a14.png",
+    "static/media/videosecurity.png": "/curb/static/media/videosecurity.9a6d5141b90409b3023c.png",
+    "static/media/impactBg.png": "/curb/static/media/impactBg.b4b5eb111d69302f18cb.png",
+    "static/media/ImpactEl.png": "/curb/static/media/ImpactEl.b2779e5726e689d818b6.png",
+    "static/media/carImg.png": "/curb/static/media/carImg.bcc4e43df8756c4a39f1.png",
+    "static/media/img-transportation-agency.png": "/curb/static/media/img-transportation-agency.4c022c3f3239cc11df2e.png",
+    "static/media/tech-img-1.svg": "/curb/static/media/tech-img-1.7d542ca31d2338912434b4b17a8dcdbf.svg",
+    "static/media/tech-img-2.svg": "/curb/static/media/tech-img-2.eecd743e9c9a1d8cafd5df12f3eba73f.svg",
+    "static/media/tech-img-3.svg": "/curb/static/media/tech-img-3.31c6a033c92ed419518e2b265d6352fe.svg",
+    "index.html": "/curb/index.html",
+    "static/media/footerLogo.svg": "/curb/static/media/footerLogo.6e2e57d0770d6e2872342cd37228cec3.svg",
+    "main.70d2530f.css.map": "/curb/static/css/main.70d2530f.css.map",
+    "main.acfbb51f.js.map": "/curb/static/js/main.acfbb51f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70d2530f.css",
+    "static/js/main.acfbb51f.js"
+  ]
+}
