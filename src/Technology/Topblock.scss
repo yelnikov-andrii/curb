@@ -1,0 +1,41 @@
+.topblock {
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    max-width: 340px;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 1.32px;
+    color: $txt_color;
+    margin: 0 0 25px 0;
+  }
+
+  &__txt {
+    font-size: 15px;
+    line-height: 24px;
+    color: $txt_second_color;
+    max-width: 450px;
+    margin: 0 0 57px 0;
+  }
+
+  &__link {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.45px;
+    color: $txt_fourth_color;
+    width: 271px;
+    height: 60px;
+    border: 1px solid $txt_second_color;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: all 1s ease;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import 'vars.scss';
+@import 'mixins.scss';
+@import 'Header/Header.scss';
+@import 'Header/Header-list.scss';
+@import 'Header/Menu-list.scss';
+@import 'Technology/Technology.scss';
+@import 'Technology/Topblock.scss';
+@import 'Technology/Bottom-block.scss';
+@import 'About/About.scss';
+@import 'Impact/Impact.scss';
+@import 'Blog/Blog.scss';
+@import 'Form/Form.scss';
+@import 'Form/FormBlock.scss';
+@import 'Footer/Footer.scss';
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1236px;
+  padding: 0 15px;
+  margin: 0 auto;
+}

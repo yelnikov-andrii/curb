@@ -1,0 +1,158 @@
+.about {
+  padding: 58px 0 180px;
+  background-color: #fff;
+
+  @include onSmallScreen {
+    padding: 58px 0 100px;
+  }
+
+  &__header {
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 1.32px;
+    color: $txt_color;
+    max-width: 650px;
+    margin: 0 0 25px 0;
+    padding: 0 0 0 100px;
+
+    @include onSmallScreen {
+      padding: 0;
+      font-size: 34px;
+      line-height: 40px;
+    }
+  }
+
+  &__txt {
+    font-size: 15px;
+    line-height: 24px;
+    color: $txt_second_color;
+    margin: 0 0 57px 0;
+    max-width: 300px;
+    padding: 0 0 0 100px;
+
+    @include onSmallScreen {
+      padding: 0;
+
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: fit-content;
+    margin: 0 0 172px 0;
+
+    @include onSmallScreen {
+      margin: 0 0 100px 0;
+    }
+  }
+
+  &__leaders {
+    padding: 0 0 0 100px;
+
+    @include onSmallScreen {
+      padding: 0;
+    }
+
+    &-title {
+      font-size: 44px;
+      line-height: 50px;
+      letter-spacing: 1.32px;
+      color: $txt_color;
+      max-width: 510px;
+      margin: 0 0 25px 0;
+
+      @include onSmallScreen {
+        font-size: 34px;
+        line-height: 40px;
+      }
+    }
+
+    &-txt {
+      font-size: 15px;
+      line-height: 24px;
+      color: $txt_second_color;
+      margin: 0 0 94px 0;
+
+      @include onSmallScreen {
+        margin: 0 0 50px 0;
+      }
+    }
+
+    &-also {
+      font-size: 18px;
+      line-height: 28px;
+      color: $txt_color;
+      margin: 0 0 36px 0;
+    }
+
+    &-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 90px;
+      width: 80%;
+      margin: 0 auto 196px auto;
+
+      @include onSmallScreen {
+        width: 100%;
+        justify-content: center;
+        gap: 40px;
+        margin: 0 auto 56px auto;
+      }
+
+    }
+  }
+
+  &__feedback {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    @include onSmallScreen {
+      flex-direction: column;
+      align-items: center;
+
+    }
+
+    &-txt {
+      max-width: 586px;
+      font-size: 32px;
+      line-height: 46px;
+      letter-spacing: 0.32px;
+      color: $txt_third_color;
+
+      @include onTablet {
+        width: 80%;
+      }
+
+      @include onSmallScreen {
+        margin-bottom: 50px;
+        font-size: 25px;
+        line-height: 36px;
+      }
+    }
+
+    &-block-logo {
+      max-width: 340px;
+      display: flex;
+
+      &_img {
+        width: 138px;
+        height: 138px;
+        margin-right: 20px;
+      }
+
+      &_txt {
+        font-size: 18px;
+        line-height: 28px;
+        color: $txt_color;
+        margin: 0 0 7px 0;
+      }
+
+      &_desc {
+        font-size: 15px;
+        line-height: 24px;
+        color: $txt_second_color
+      }
+    }
+  }
+}

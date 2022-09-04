@@ -1,0 +1,123 @@
+.form {
+  padding: 156px 0 146px;
+  background: #DDEBFF;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    @include onTablet {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__block-txt {
+    width: 50%;
+    padding: 0 100px 0 100px;
+
+    @include onTablet {
+      margin: 0 0 113px 0;
+    }
+
+    @include onSmallScreen {
+      padding: 0 60px 0 60px;
+      width: 70%;
+    }
+
+
+    &_title {
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 50px;
+      letter-spacing: 1.32px;
+      color: $txt_color;
+      margin: 0 0 313px 0;
+      position: relative;
+      width: max-content;
+      max-width: 445px;
+
+      @include onTablet {
+        margin: 0 0 113px 0;
+      }
+
+      @include onSmallScreen {
+        width: 100%;
+        max-width: unset;
+        font-size: 34px;
+        line-height: 40px;
+      }
+
+      &::before {
+        background-image: url(../img/form_img.png);
+        position: absolute;
+        top: -30px;
+        left: -55px;
+        width: 43px;
+        height: 64px;
+        content: '';
+      }
+
+      &::after {
+        background-image: url(../img/form_img.png);
+        position: absolute;
+        top: -30px;
+        right: -35px;
+        width: 43px;
+        height: 64px;
+        content: '';
+        transform: rotateY(180deg);
+      }
+    }
+
+    &_txt {
+      font-size: 18px;
+      line-height: 21px;
+      letter-spacing: 1.8px;
+      color: $txt_color;
+      position: relative;
+      width: max-content;
+      max-width: 445px;
+
+      @include onSmallScreen {
+        width: 100%;
+        max-width: unset;
+      }
+
+      &::before {
+        background-image: url(../img/form_img.png);
+        position: absolute;
+        bottom: -30px;
+        left: -55px;
+        width: 43px;
+        height: 64px;
+        content: '';
+        transform: rotateX(180deg);
+      }
+
+      &::after {
+        background-image: url(../img/form_img.png);
+        position: absolute;
+        bottom: -30px;
+        right: -35px;
+        width: 43px;
+        height: 64px;
+        content: '';
+        transform: rotateZ(180deg);
+      }
+    }
+  }
+
+  &__block-form {
+    width: 50%;
+
+    @include onTablet {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  &_form {
+    width: 100%;
+  }
+}

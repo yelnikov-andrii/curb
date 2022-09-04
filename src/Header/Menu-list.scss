@@ -1,0 +1,23 @@
+.menu-list {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: -38px;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  transform: translateY(-100%);
+  transition: transform 1s ease;
+
+  &.menu-list--active {
+    transform: translateY(0);
+  }
+
+  @include onSmallScreen {
+    display: flex;
+  }
+}
