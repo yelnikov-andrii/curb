@@ -5,10 +5,10 @@ export const Form: React.FC = () => {
     <section className='form' id='book a demo'>
     <div className="container">
       <div className='form__block-txt'>
-      <h3 className='form__block-txt_title'>
+      <h3 className='form__block-txt_title' data-aos="zoom-out" data-aos-duration='2000'>
         Let’s find out how your curbs are used.
       </h3>
-      <p className='form__block-txt_txt'>
+      <p className='form__block-txt_txt' data-aos="zoom-out" data-aos-duration='2000'>
         Connect with Vade and see what real-time curb data can do for your city.
       </p>
       </div>

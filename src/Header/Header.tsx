@@ -2,6 +2,8 @@ import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import classNames from 'classnames'
 import carImg from '../img/carImg.png'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 interface Props {
   headerItemsArr: string[]
@@ -22,6 +24,8 @@ export const Header: React.FC <Props> = ({ headerItemsArr }) => {
     el1 = ref1.current
     el2 = ref2.current
     window.addEventListener('scroll', makeScroll)
+    AOS.init()
+    AOS.refresh()
     setTimeout(() => {
       setPopUpVisible(true)
     }, 2000)
@@ -48,7 +52,7 @@ export const Header: React.FC <Props> = ({ headerItemsArr }) => {
           </Link>
           <ul className='header__list header-list'>
             {headerItemsArr.map(item => (
-              <li className='header-list__item' key={item}>
+              <li className='header-list__item' key={item} data-aos={'fade-right'} data-aos-duration="2000">
                 <a href={`#${item}`} className='header-list__link'>
                   {item}
                 </a>
@@ -81,7 +85,7 @@ export const Header: React.FC <Props> = ({ headerItemsArr }) => {
         </nav>
         <div className='header__block'>
         <img src={carImg} className='header__block-carimg' ref={ref2} />
-          <h1 className='header__title'>
+          <h1 className='header__title' data-aos={'fade-right'} data-aos-duration="2000">
             Connecting the curb to new insights
           </h1>
           <div className="header__txt-wrapper">

@@ -1,6 +1,6 @@
 .footer {
   padding: 53px 0 33px;
-  background-color: #fff;
+  background-color: $gradientInst;
   height: 50vh;
 
   &__block {
@@ -74,6 +74,7 @@
           }
 
           &_item {
+
             &:nth-child(1) {
               &:hover {
                 svg {
@@ -88,7 +89,7 @@
               &:hover {
                 svg {
                   path {
-                    fill: #e1306c;
+                    fill: url(#rg);
                   }
                 }
               }

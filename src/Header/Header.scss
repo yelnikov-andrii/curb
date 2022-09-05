@@ -34,41 +34,6 @@
         display: none;
       }
     }
-
-    // &::before {
-    //   position: absolute;
-    //   top: -38px;
-    //   left: 140px;
-    //   background-image: url(../img/carImg.png);
-    //   background-size: cover;
-    //   background-repeat: no-repeat;
-    //   width: 197px;
-    //   height: 428px;
-    //   content: '';
-    //   transform: translateY(attr(data-text-bottom));
-
-    //   @include onTablet {
-    //     display: none;
-    //   }
-    // }
-
-    // &::after {
-    //   position: absolute;
-    //   top: 500px;
-    //   left: 50%;
-    //   background-image: url(../img/carImg.png);
-    //   background-size: cover;
-    //   background-repeat: no-repeat;
-    //   width: 197px;
-    //   height: 428px;
-    //   content: '';
-    //   transform: rotate(180deg) translateX(50%);
-    //   z-index: 1;
-
-    //   @include onTablet {
-    //     display: none;
-    //   }
-    // }
   }
 
   &__logo {
@@ -113,23 +78,6 @@
       transform: rotate(-180deg);
     }
 
-    // &::before {
-    //   position: absolute;
-    //   bottom: -350px;
-    //   right: 132px;
-    //   background-image: url(../img/carImg.png);
-    //   background-size: cover;
-    //   background-repeat: no-repeat;
-    //   width: 197px;
-    //   height: 428px;
-    //   content: '';
-    //   transform: rotate(180deg) translateX(-50%);
-
-    //   @include onSmallScreen {
-    //     z-index: 0;
-    //   }
-    // }
-
     &::after {
       position: absolute;
       top: -150px;
@@ -173,7 +121,7 @@
     color: $txt_second_color;
     margin: 0;
     width: 80%;
-    border-right: .15em solid orange;
+    border-right: .15em solid $yellow_color;
     white-space: nowrap;
     overflow: hidden;
 

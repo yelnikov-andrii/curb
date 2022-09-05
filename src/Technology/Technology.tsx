@@ -27,29 +27,32 @@ export const Technology: React.FC = () => {
       <div className="container">
       <div className='technology__topblock'>
         <div className='technology__topblock-txt topblock'>
-        <h2 className='topblock__header'>
+        <h2 className='topblock__header' data-aos="fade-up-right" data-aos-duration="2000">
           Get to know the curb better
         </h2>
-        <p className='topblock__txt'>
+        <p className='topblock__txt' data-aos="fade-up-right" data-aos-duration="2000">
           Vade replaces legacy parking infrastructure with wireless cameras, computer vision, and granular analytics. We make it easy for cities to monitor and manage curb space in real-time.
         </p>
-        <a className='topblock__link' href='/'>
+        <a className='topblock__link' href='/' data-aos="fade-up-right" data-aos-duration="2000">
           More about our technology
         </a>
         </div>
         <div className='technology__topblock-image'>
           <img src={videoSecurityImg}
-               className='technology__topblock-image_img' />
+               className='technology__topblock-image_img' data-aos="zoom-out-left" data-aos-duration="2000" />
         </div>
       </div>
       <div className='technology__bottom-block bottom-block'>
         {dataArrBottomBlock.map(obj => (
           <div className='bottom-block__item' key={obj.title}>
-            <img src={obj.img} className='bottom-block__item-img' />
-            <strong className='bottom-block__item-title'>
+            <img src={obj.img} className='bottom-block__item-img' data-aos="fade-up"
+     data-aos-duration="2000"/>
+            <strong className='bottom-block__item-title' data-aos="fade-up"
+     data-aos-duration="2000">
               {obj.title}
             </strong>
-            <p className='bottom-block__item-txt'>
+            <p className='bottom-block__item-txt' data-aos="fade-up"
+     data-aos-duration="2000">
               {obj.text}
             </p>
           </div>

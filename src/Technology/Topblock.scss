@@ -34,8 +34,12 @@
     text-decoration: none;
     transition: all 1s ease;
 
-    &:hover {
-      transform: scale(1.2);
+    &.aos-animate {
+      &:hover {
+        transform: scale(1.2);
+      }
     }
+
+    
   }
 }

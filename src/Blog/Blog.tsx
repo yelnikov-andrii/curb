@@ -30,7 +30,7 @@ export const Blog: React.FC = () => {
         <div className='blog__block'>
          {arrBlog.map(el => (
           <div key={el.title} className='blog__block-item'>
-          <img src={el.img} className='blog__block-item_img'/>
+          <img src={el.img} className='blog__block-item_img' data-aos="zoom-out" data-aos-duration='2000'/>
           <p className='blog__block-item_title'>
             {el.title}
           </p>
