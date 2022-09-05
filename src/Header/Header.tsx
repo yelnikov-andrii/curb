@@ -76,7 +76,7 @@ export const Header: React.FC <Props> = ({ headerItemsArr }) => {
           }}>
             {headerItemsArr.map(item => (
               <li className='header-list__item' key={item}>
-                <a href={`#${item}`} className='header-list__link'>
+                <a href={`#${item}`} className='header-list__link menu-list__link'>
                   {item}
                 </a>
               </li>

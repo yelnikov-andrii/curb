@@ -15,6 +15,11 @@
 
   &.menu-list--active {
     transform: translateY(0);
+    opacity: 1;
+  }
+
+  &__link {
+    opacity: 1;
   }
 
   @include onSmallScreen {
