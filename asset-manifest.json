@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/curb/static/css/main.0cb820dc.css",
-    "main.js": "/curb/static/js/main.3e981800.js",
+    "main.css": "/curb/static/css/main.ffd03ebd.css",
+    "main.js": "/curb/static/js/main.7cacde71.js",
     "static/media/analyticData.png": "/curb/static/media/analyticData.19190037302b3d6e2d03.png",
     "static/media/blog-1-img.png": "/curb/static/media/blog-1-img.8060ef54f5a3dd9dd261.png",
     "static/media/blog-2-img.png": "/curb/static/media/blog-2-img.782315d2889ad1a9a804.png",
@@ -16,11 +16,11 @@
     "static/media/tech-img-3.svg": "/curb/static/media/tech-img-3.31c6a033c92ed419518e2b265d6352fe.svg",
     "index.html": "/curb/index.html",
     "static/media/footerLogo.svg": "/curb/static/media/footerLogo.6e2e57d0770d6e2872342cd37228cec3.svg",
-    "main.0cb820dc.css.map": "/curb/static/css/main.0cb820dc.css.map",
-    "main.3e981800.js.map": "/curb/static/js/main.3e981800.js.map"
+    "main.ffd03ebd.css.map": "/curb/static/css/main.ffd03ebd.css.map",
+    "main.7cacde71.js.map": "/curb/static/js/main.7cacde71.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cb820dc.css",
-    "static/js/main.3e981800.js"
+    "static/css/main.ffd03ebd.css",
+    "static/js/main.7cacde71.js"
   ]
 }
