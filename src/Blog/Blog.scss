@@ -84,26 +84,12 @@
 }
 
 .swiper {
+  margin-bottom: 60px;
   @media (min-width: 425px) {
     display: none;
   }
-}
 
-.swiper-wrapper {
-  width: 300vw;
-  overflow: hidden;
-  display: flex;
-  margin-bottom: 100px;
-
-  @media (min-width: 425px) {
-    display: none;
-  }
-}
-
-.swiper-slide {
-  width: 100vw;
-
-  @media (min-width: 425px) {
-    display: none;
+  &-pagination {
+    bottom: 40px;
   }
 }

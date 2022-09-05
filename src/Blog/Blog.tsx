@@ -3,7 +3,10 @@ import React from 'react'
 import blogOneImg from '../img/blog-1-img.png'
 import blogTwoImg from '../img/blog-2-img.png'
 import blogThreeImg from '../img/blog-3-img.png'
+import { Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css'
+import 'swiper/css/pagination'
 
 export const Blog: React.FC = () => {
   const arrBlog = [
@@ -31,8 +34,10 @@ export const Blog: React.FC = () => {
           Our blog posts
         </p>
         <Swiper
+      modules={[Pagination]}
       spaceBetween={20}
       slidesPerView={1}
+      pagination={{ clickable: true }}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
