@@ -15,3 +15,9 @@
     @content;
   }  
 }
+
+@mixin screenLess425 {
+  @media (max-width: 425px) {
+    @content;
+  }  
+}

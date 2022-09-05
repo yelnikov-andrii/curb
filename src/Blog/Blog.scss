@@ -14,8 +14,12 @@
     justify-content: space-between;
     margin: 0 0 100px 0;
 
-    @include onSmallScreen {
+     @include onSmallScreen {
       flex-direction: column;
+     }
+
+     @media (max-width: 425px) {
+      display: none;
     }
 
     &-item {
@@ -71,5 +75,39 @@
       cursor: pointer;
       transform: scale(1.2);
     }
+  }
+
+  &__swiper {
+    
+
+    @media (max-width: 425px) {
+      display: flex;
+    flex-direction: row;
+    }
+  }
+}
+
+.swiper {
+  @media (min-width: 425px) {
+    display: none;
+  }
+}
+
+.swiper-wrapper {
+  width: 300vw;
+  overflow: hidden;
+  display: flex;
+  margin-bottom: 100px;
+
+  @media (min-width: 425px) {
+    display: none;
+  }
+}
+
+.swiper-slide {
+  width: 100vw;
+
+  @media (min-width: 425px) {
+    display: none;
   }
 }
