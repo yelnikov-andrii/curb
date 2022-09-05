@@ -36,10 +36,6 @@
         @include onSmallScreen {
           width: 90%;
         }
-
-        &:hover {
-          transform: scale(1.2);
-        }
       }
   
       &_title {
