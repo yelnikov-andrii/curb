@@ -38,8 +38,6 @@ export const Blog: React.FC = () => {
       spaceBetween={20}
       slidesPerView={1}
       pagination={{ clickable: true }}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
     >
       {arrBlog.map(el => (
           <SwiperSlide key={el.title}>
@@ -57,10 +55,10 @@ export const Blog: React.FC = () => {
          {arrBlog.map(el => (
           <div key={el.title} className='blog__block-item'>
           <img src={el.img} className='blog__block-item_img' data-aos="zoom-out" data-aos-duration='2000'/>
-          <p className='blog__block-item_title'>
+          <p className='blog__block-item_title' data-aos="zoom-out" data-aos-duration='2000'>
             {el.title}
           </p>
-          <p className='blog__block-item_date'>
+          <p className='blog__block-item_date' data-aos="zoom-out" data-aos-duration='2000'>
             {el.date}
           </p>
           </div>

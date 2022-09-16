@@ -46,7 +46,6 @@ export const Header: React.FC <Props> = ({ headerItemsArr }) => {
       <div className="container">
         <nav className='header__nav'
           >
-            <img src={carImg} className='header__nav-carimg' ref={ref} />
           <Link to='/' className='header__logo'>
             Vade
           </Link>
@@ -84,6 +83,7 @@ export const Header: React.FC <Props> = ({ headerItemsArr }) => {
           </ul>
         </nav>
         <div className='header__block'>
+        <img src={carImg} className='header__nav-carimg' ref={ref} />
         <img src={carImg} className='header__block-carimg' ref={ref2} />
           <h1 className='header__title' data-aos={'fade-right'} data-aos-duration="2000">
             Connecting the curb to new insights
