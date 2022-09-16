@@ -27,19 +27,19 @@ export const Technology: React.FC = () => {
       <div className="container">
       <div className='technology__topblock'>
         <div className='technology__topblock-txt topblock'>
-        <h2 className='topblock__header' data-aos="fade-up-right" data-aos-duration="2000">
+        <h2 className='topblock__header' data-aos="fade-up-left" data-aos-duration="2000">
           Get to know the curb better
         </h2>
-        <p className='topblock__txt' data-aos="fade-up-right" data-aos-duration="2000">
+        <p className='topblock__txt' data-aos="fade-up-left" data-aos-duration="2000">
           Vade replaces legacy parking infrastructure with wireless cameras, computer vision, and granular analytics. We make it easy for cities to monitor and manage curb space in real-time.
         </p>
-        <a className='topblock__link' href='/' data-aos="fade-up-right" data-aos-duration="2000">
+        <a className='topblock__link' href='/' data-aos="fade-up-left" data-aos-duration="2000">
           More about our technology
         </a>
         </div>
         <div className='technology__topblock-image'>
           <img src={videoSecurityImg}
-               className='technology__topblock-image_img' data-aos="zoom-out-left" data-aos-duration="2000" />
+               className='technology__topblock-image_img' data-aos="zoom-out-up" data-aos-duration="2000" />
         </div>
       </div>
       <div className='technology__bottom-block bottom-block'>
